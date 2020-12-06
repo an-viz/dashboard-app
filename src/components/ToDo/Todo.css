@@ -1,0 +1,47 @@
+.List{
+    box-sizing: border-box;
+    background-color: #ccc ;
+}
+.List li{
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid #eee;
+    display: flex;
+}
+.btn{
+    display: flex;
+    margin-left:auto;
+}
+span.grippy {
+    content: '....';
+    width: 10px;
+    /* height: 20px; */
+    display: flex;
+    overflow: hidden;
+    line-height: 5px;
+    padding: 10px;
+    cursor: move;
+    vertical-align: middle;
+    margin-top: -.7em;
+    margin-right: .8em;
+    font-size: 12px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: #cccccc;
+    text-shadow: 1px 0 1px black;
+  }
+  span.grippy::after {
+    content: '.. .. .. ..';
+  }
+  .submit1{
+    background-color: greenyellow;
+    cursor: pointer;
+    color: black;
+    padding: 8px;
+    font-weight: bold;
+    font: inherit;
+    border-radius: 5px;
+    display: inline;
+    margin: 10px;
+  }

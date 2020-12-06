@@ -1,0 +1,31 @@
+/* .circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.445);
+    margin: 50vh 30px;
+    
+}
+.circle1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   
+} */
+.container{
+    background-color: white;
+    /* border: 1px solid red; */
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.circle{
+    height: 175px;
+    width: 175px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    /* border: 1px solid black; */
+  }

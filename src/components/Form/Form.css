@@ -1,0 +1,64 @@
+
+.Header{
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.Body{
+    background-color: teal;
+    min-height: 100vh;
+    top : 0;
+    left: 0;
+    padding: 20px;
+}
+
+
+.Form{
+    width: 60%;
+    min-height: 30vh;
+    border: 2px solid #ccc;
+    margin: auto;
+    padding: 20px;
+    background-color: #eee;
+    box-sizing: border-box;
+}
+.Form input{
+    width: 100%;
+    padding: 8px ;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+.submit{
+    background-color: lime;
+    cursor: pointer;
+    color: black;
+    margin: 0 25%;
+    padding: 8px;
+    font-weight: bold;
+    font: inherit;
+    border-radius: 5px;
+    display: inline;
+    border: 2px solid green;
+
+}
+.submit:disabled{
+    opacity: 0.5;
+}
+.cancel{
+    background-color: salmon;
+    cursor: pointer;
+    color: black;
+    margin: auto;
+    margin-top: 10px;
+    padding: 8px;
+    font-weight: bold;
+    font: inherit;
+    border-radius: 5px;
+    display: inline;
+    border: 2px solid red;
+
+}
+
+.country{
+    margin: 5px ;
+}

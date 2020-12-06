@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route } from 'react-router-dom';
+
+import Table from './components/Table/Table';
+import Form from './components/Form/Form';
+import Todo from './components/ToDo/Todo';
+import Creator from './components/Creator/Creator';
+import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Sidebar />
+    <Route path="/" exact component={Form} />
+    <Route path="/table" component={Table} />
+    <Route path="/todo" component={Todo} />
+    <Route path="/creator" component={Creator} />
+    </>
   );
 }
 

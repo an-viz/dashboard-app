@@ -1,0 +1,28 @@
+nav{
+    height: 100%;
+    width: 100px;
+    background-color: aquamarine;
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 32px 16px;
+}
+.Link{
+    margin:90px -20px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+
+}
+.Link img{
+    width: 50%;
+    
+}
+.Link img:hover{
+    background-color: cornflowerblue;
+}
+
